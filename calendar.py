@@ -1,2 +1,1 @@
-print('hello')
-#i love chaz
+print('i love computer science')
