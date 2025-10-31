@@ -3,7 +3,7 @@ con=sqlite3.connect('calendar.db')
 cursor=con.cursor()
 
 #create table
-def create_table():
+def create_tables():
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS day(
         date INTEGER
